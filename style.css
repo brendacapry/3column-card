@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, button{
+  font-family: "Lexend Deca", sans-serif;
+}
+h3{
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+p{
+  font-size: 15px;
+  line-height: 1.6;
+}
+.col-1{
+  background-color: #e38826;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.col-2{
+  background-color: #006970;
+  color: #fff;
+}
+.col-3{
+  background-color: #004241;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.col-1 .btn{
+  color: #e38826;
+
+}
+.col-2 .btn{
+  color: #006970;
+}
+.col-3 .btn{
+  color: #004241;
+}
+.container{
+  padding: 20px;
+}
+.card{
+  padding: 30px;
+}
+.card img{
+  margin-bottom: 25px;
+}
+.card h3{
+  margin-bottom: 20px;
+}
+.card p{
+  margin-bottom: 30px;
+}
+.btn{
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+  background-color: transparent;
+  color: #fff;
+
+}
+@media (min-width: 992px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+  }
+  .col-1{
+    border-radius: 10px 0 0 10px;
+  }
+  .col-3{
+    border-radius: 0 10px 10px 0;
+  }
+  .card p{
+    margin-bottom: 80px;
+  }
+  .card{
+    padding: 45px;
+  }
+}
